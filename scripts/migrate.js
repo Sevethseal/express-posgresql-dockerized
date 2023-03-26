@@ -6,7 +6,7 @@ const db = require("../src/db");
       "SELECT EXISTS (SELECT FROM information_schema.tables WHERE table_schema LIKE 'public' AND table_type LIKE 'BASE TABLE' AND  table_name='book')"
     );
     console.log(isTable, "tableValue");
-    if (!isTable?.result?.rows[0]?.exists) {
+    if (isTable?.result?.rows[0]?.exists) {
       await db.query("DROP TABLE book");
     }
     await db.query(
