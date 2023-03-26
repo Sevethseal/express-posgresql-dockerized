@@ -10,3 +10,4 @@ To start
 2. npm install in root 
 3. In root, enter
 docker-compose-up
+4. http://localhost:5000/api/books , an empty array will be displayed
