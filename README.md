@@ -2,7 +2,7 @@
 dockerized express-posgresql application
 
 required:
- 1. docker and docker-compose up
+ 1. docker and docker-compose 
 
 
 To start 
