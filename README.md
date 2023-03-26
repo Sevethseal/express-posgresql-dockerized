@@ -7,5 +7,6 @@ required:
 
 To start 
 1. clone
-2. In root, enter
+2. npm install in root 
+3. In root, enter
 docker-compose-up
